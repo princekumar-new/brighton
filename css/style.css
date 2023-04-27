@@ -1,0 +1,405 @@
+body{
+ box-sizing: border-box;
+}
+
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.full-width{
+    background-color:#78853f;
+}
+
+
+
+
+#my-navigation{
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    background-color: #90953b;
+    display:block;
+
+}
+ 
+ 
+
+#logo{
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 3px;
+}
+.navbar-header img{
+}
+
+#my-navigation ul li a{
+    font-size: 16px;
+    color: #fff;
+}
+
+#my-navigation img{
+    float: left;
+}
+
+
+.banner{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url(../images/slider-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top:50px;
+}
+.caption{
+    width: 50%;
+    padding: 80px 30px;
+}
+.caption h2{
+    color: yellow;
+    font-size: 30px;
+}
+.caption h1{
+    margin-top: 10px;
+    font-size: 50px;
+    color:#fff;
+    font-weight: 700;
+}
+.caption p{
+    padding: 20px 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.button{
+    width: 180px;
+    padding: 15px 15px;
+    background-color: #fff;
+    border: 0;
+}
+.button:hover{
+    background-color: #90953b;
+    color: #fff;
+    font-size: 17px;
+}
+.button1{
+    background-color: yellow;
+    margin-left: 10px;
+}
+
+/*two-section starts here*/
+
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#program{
+ padding: 80px 0;
+}
+.two-section{
+    width: 100%;
+}
+
+.head h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+.head p{
+    font-size: 16px;
+}
+
+.first-section{
+    width: 50%;
+}
+
+.second-section{
+    width: 50%;
+}
+
+.programs{
+    margin-top: 60px;
+}
+
+
+.programs .img{
+    width: 28%;
+    background-size: cover;
+    background-position: center;
+    background-color:aliceblue;
+    text-align: center;
+    padding: 30px 0;
+}
+.programs .img:hover{
+  background-color: #90953b;
+}
+.programs .img img{
+    width: 55%;
+}
+
+.words{
+    width: 67%;
+}
+.words h3{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.words p{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/* two-section ends here*/
+
+/*third-section starts here*/
+.third-section{
+    background-color: #faf9f9;
+    
+}
+.two-eggs{
+    width: 50%;
+   
+}
+.two-eggs img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background: none;
+}
+
+.about-egg{
+    width: 50%;
+    padding: 50px 0;
+}
+.about-egg h3{
+    font-weight: 700;
+    font-size: 32px;
+}
+.about-egg p{
+    font-size: 16px;
+    padding: 20px 0;
+    line-height: 25px;
+}
+.newone{
+    width: 450px;
+}
+
+/*third-section ends here*/
+
+/*carousel starts here*/
+
+
+.align{
+    text-align: center;
+    padding: 80px 0;
+}
+
+.item .car-img img{
+    width: 20%;
+    margin:0 auto;
+}
+
+.item h4{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.item h6{
+  color:#90953b ;
+  font-size: 15px;
+  margin: 20px 0;
+}
+
+.item p{
+    font-size: 16px;
+}
+.align a{
+ background-color:;
+}
+
+/* carousel ends here*/
+
+
+.CONTACT{
+    width: 100%;
+    background-color: #78853f;
+}
+.contact{
+    width: 70%;
+    margin: 0 auto;
+    padding:50px 0;
+    text-align: center;
+}
+
+
+input{
+    margin-bottom: 30px;
+
+    
+}
+#place{
+    padding: 25px 20px;
+    border-radius: 30px;
+}
+
+.contact h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.bbutton{
+    background-color: red;
+    font-size: 18px;
+    padding: 14px 50px;
+    border: 0;
+    margin-top: 30px;
+    border-radius: 20px;
+    text-align: center;
+
+    
+}
+
+.box-1{
+    width: 24%;
+
+}
+
+/* last section starts here*/
+
+.last-section{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+}
+.news {
+    padding: 70px 0;
+}
+.box-1 h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #78853f;
+
+}
+
+.box-1 p{
+    margin-top: 20px;
+    font-size: 16px;
+    text-align:left;
+    line-height: 25px;
+}
+
+/* last section starts here*/
+
+footer {
+    background-color: #78853f;
+    padding: 20px;
+}
+footer p{
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+@media only screen and (max-width:768px){
+  .banner {
+    width: 90%;
+  }
+  
+  .caption {
+    width: 90%;
+    padding: 40px 20px;
+  }
+  .caption h2{
+    font-size: 22px;
+  }
+  .banner h1{
+    font-size: 40px;
+  }
+  
+  .button1 {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  
+  .head h2{
+    font-size: 28px;
+  }
+  .head p{
+    font-size: 15px;
+  }
+  .first-section {
+    width: 100%;
+  }
+  .second-section {
+    width: 100%;
+  }
+
+  .two-eggs {
+    width: 100%;
+
+  }
+  .two-eggs img{
+    width: 100%;
+  }
+
+  .about-egg {
+    width: 80%;
+    padding: 20px 0;
+    margin-right:0;
+  }
+  .about-egg h3{
+    font-size: 28px;
+  }
+  .about-egg p{
+     padding: 15px 0;
+  }
+  .newone {
+    text-align: center;
+    width: 100%;
+    margin:0 50px;
+  }
+  .box-1 {
+    width: 100%;
+    margin-right: 0;
+  }
+  .box-1 h3{
+  }
+ 
+}
+@media only screen and (min-width:769px)  and (max-width:1000px){
+    .banner {
+        width:90%;
+    }
+    .banner h1{
+        font-size: 45px;
+    }
+    .banner h2{
+        font-size:25px;
+    }
+    .caption {
+        width: 70%;
+    }
+    .button1{
+        margin-left: 0;
+    } 
+    .box-1{
+        width: 50%;
+        padding: 10px 20px;
+    }
+    
+}
+@media only screen and (min-width:1001px)  and (max-width:1300px){
+  .banner {
+    width: 92%;
+  }
+
+  
+}
+
